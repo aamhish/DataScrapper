@@ -1,0 +1,5 @@
+Thanks for reading me!
+To use this, please run the following to install the requirements, which are requests and beautifulsoup4 on Python 3.7
+pip3 install requests
+pip3 install beautifulsoup4
+
