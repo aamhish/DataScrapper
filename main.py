@@ -51,7 +51,7 @@ city_site_dict = dict(zip(clean_city_list, link_list))
 #print(clean_city_list)
 #print(city_site_dict)
 
-with open('newesttest.csv', 'a') as csvFile:
+with open('finaltest.csv', 'a') as csvFile:
 	#goes through putting stuff in csvs and scraps the image links and puts that in the excel file too
 	writer = csv.writer(csvFile)
 	writer.writerow(["City", "Link", "Images"])
